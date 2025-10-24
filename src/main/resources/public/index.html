@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Java Web3</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Java Web3 Demo</h1>
+
+    <section class="card">
+      <h2>Chain Info</h2>
+      <button id="btn-chain">Fetch</button>
+      <pre id="chain-output"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Address Balance</h2>
+      <form id="balance-form">
+        <input id="address" placeholder="0x..." required />
+        <button type="submit">Get balance</button>
+      </form>
+      <pre id="balance-output"></pre>
+    </section>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
